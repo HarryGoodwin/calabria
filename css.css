@@ -16,6 +16,13 @@ a:link {
 	margin-bottom: 2%;
 }
 
+.title h1 {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
 .title img {
 	margin-top: 5%;
 }
@@ -102,7 +109,7 @@ img {
 
 .overlay:hover .icon {
 	opacity: 1;
-	background-color: black;
+	background-color: #18b281;
 	border-radius: 25px;
 	margin: 2%;
 	padding: 1%;
@@ -114,6 +121,34 @@ img {
 }
 
 .icon a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.icon_two {
+	opacity: 0;
+	margin-top: 30%;
+	margin-right: 50%;
+	transition-property: opacity, margin, height;
+	transition-delay: 0.2s;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+}
+
+.overlay:hover .icon_two {
+	opacity: 1;
+	background-color: #18b281;
+	border-radius: 25px;
+	margin: 2%;
+	padding: 1%;
+}
+
+.icon_two a {
+	text-decoration: none;
+	color: white;
+}
+
+.icon_two a:hover {
 	color: gray;
 	text-decoration: none;
 }
