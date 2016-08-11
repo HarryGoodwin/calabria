@@ -7,17 +7,20 @@
 
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="autoScrollTo.js"></script>
+
+
 	<title>Santa Domenica, Italy</title>
 </head>
 <body>
 	<div class="title">
 		<h1>Welcome to<br />Calabria</h1>
-		<a href="#identifier"><img src="images/arrow.png"></a>		
+		<a href="#" onclick="return false;" onmousedown="autoScrollTo('div1')"><img src="images/arrow.png"></a>		
 	</div>
 
 	<div class="container container-images">
+	<div id="div1"></div>
 		<div class="row">
-		<a name="identifier"></a>
 			<div class="col-md-6 col-sm-12 col-xs-12">
 				<div class="image">
 					<img src="images/sea.jpg">
