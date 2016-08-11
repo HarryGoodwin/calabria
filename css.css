@@ -272,7 +272,7 @@ img {
 }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 750px) {
 .image {
 	padding: 0;
 	margin-bottom: 2px;
